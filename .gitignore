@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Igonore /config/database.yml for deploy
+/config/database.yml
