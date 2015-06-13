@@ -43,6 +43,10 @@ group :development, :test do
 
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  gem "capistrano",  "~> 3.1", require: false
+  gem "capistrano-rvm", "~> 0.1.1", require: false
+  gem "capistrano-rails", "~> 1.1", require: false
+  gem "capistrano-rbenv", "~> 2.0", require: false # production server use rbenv
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
